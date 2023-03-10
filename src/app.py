@@ -3,7 +3,7 @@ from eq_w import EqwAlgo
 
 
 def handler(event, context):
-    # Meteis el código completo del algo----->>>>
+    # Meteis el código completo del algo
     ah = BMEApiHandler()
     df_san = ah.get_ohlcv_data('SAN')
     print(df_san)
